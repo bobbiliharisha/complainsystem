@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complaint Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Online Complaint Management System</h2>
+
+  <input id="name" placeholder="Student Name">
+  <input id="email" placeholder="Email">
+  <textarea id="complaint" placeholder="Enter Complaint"></textarea>
+
+  <button onclick="addComplaint()">Submit</button>
+
+  <h3>Complaint Records</h3>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Complaint</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="data"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
